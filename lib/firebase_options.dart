@@ -29,19 +29,22 @@ class DefaultFirebaseOptions {
   // 또는 flutterfire configure 를 실행하면 자동으로 채워집니다.
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
+    apiKey: 'AIzaSyCrjhulqYfbx2xJSbwMonrIvqpSogN3r60',
+    appId: '1:793813757199:ios:623c416acd923bf512627a',
+    messagingSenderId: '793813757199',
+    projectId: 'bws-chat-7469c',
+    databaseURL: 'https://bws-chat-7469c-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'bws-chat-7469c.firebasestorage.app',
     iosBundleId: 'com.biweeklystudio.bwsChatExample',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
+    apiKey: 'AIzaSyCmkm4ktOBBbb-wjMenfs2gkx1GwQ_H1kY',
+    appId: '1:793813757199:android:bb123d8139e08f0412627a',
+    messagingSenderId: '793813757199',
+    projectId: 'bws-chat-7469c',
+    databaseURL: 'https://bws-chat-7469c-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'bws-chat-7469c.firebasestorage.app',
   );
+
 }
