@@ -14,7 +14,7 @@ dependencies:
 
   # BWS Chat module (local path)
   bws_chat:
-    path: ../bws_chat
+    path: /Users/junhyeong/FlutterProject/bws_chat
 
   # Firebase
   firebase_core: ^3.12.1
@@ -23,6 +23,9 @@ dependencies:
 
   # State management (required by bws_chat)
   flutter_riverpod: ^2.6.1
+
+  # Locale
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:

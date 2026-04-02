@@ -36,8 +36,8 @@ packages:
   bws_chat:
     dependency: "direct main"
     description:
-      path: "../bws_chat"
-      relative: true
+      path: "/Users/junhyeong/FlutterProject/bws_chat"
+      relative: false
     source: path
     version: "0.0.1"
   cached_network_image:
@@ -552,7 +552,7 @@ packages:
     source: hosted
     version: "0.2.2"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
